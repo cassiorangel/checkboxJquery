@@ -3,11 +3,43 @@
 <head>
 	<title>Checkbox com Jquery</title>
 
+	<style type="text/css">
+		
+		body h1{
+		color:#80ffff;
+		text-align: center;
+		background-color: #ff80df;
+		font-family: Arial;
+
+		}
+h3{
+	background-color: #ff80df;
+		}
+
+
+		span{
+			color: blue;
+			font-weight: bold;
+		}
+
+
+.conteudo{
+	width: 600px;
+	margin: 0 auto;
+}
+
+	</style>
+
 </head>
 
 <body>
 
+<div class="conteudo">
+
 <h1>Checkbox com Jquery</h1>
+
+<h3>O que você gosta de fazer</h3>
+
 
 <div>
 	<input type="checkbox" id="todos" name="todos" />
@@ -16,20 +48,37 @@
 
 
 <div>
-	<input type="checkbox" name="" class="lista" />
+	<input type="checkbox" name="" class="lista" id="a"/>Jogar Bola
 </div>
 
 
 <div>
-	<input type="checkbox" name="" class="lista" />
+	<input type="checkbox" name="" class="lista" /><span>Jogar video game</span>
 </div>
 
 <div>
-	<input type="checkbox" name="" class="lista" />
+	<input type="checkbox" name="" class="lista" />Jogar tenis
 </div>
 
 <div>
-	<input type="checkbox" name="" class="lista" />
+	<input type="checkbox" name="" class="lista" id="a"/>Ir a escola
+</div>
+
+
+<div>
+	<input type="checkbox" name="" class="lista" id="a"/>bricar de boneca
+</div>
+
+<div>
+	<input type="checkbox" name="" class="lista" id="a"/>bricar de carrrinho
+</div>
+
+<div style="margin-top: 30px; text-align: center;">
+	
+	<button type="button" id="btn" style="background-color: red; padding: 10px; color:white; font-weight: bold; font-size: 14pt">Validar</button>
+
+</div>
+
 </div>
 
 <script type="text/javascript" src="js/jquery.js"></script>
